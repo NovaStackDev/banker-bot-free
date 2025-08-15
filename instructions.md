@@ -13,8 +13,8 @@
 
 ### 1. Clone the repo
 
-git clone https://github.com/NovaStackDev/order-manager-free
-cd order-manager-free/src/order_manager/core
+git clone https://github.com/NovaStackDev/banker-bot-free
+cd banker-bot-free/src/order_manager/core
 
 ### 2. Install dependencies
 
