@@ -15,7 +15,7 @@ contact me privately via the links at:
 ====================================================================================
 
 
-# Order-Manager — Basic (Free Version)
+# Banker-Bot — Basic (Free Version)
 A streamlined, public release of our vault monitoring system.
 This free version focuses exclusively on data listening and reporting — no automated trading or aggressive strategic logic — making it ideal for research, custom alerts, and manual decision-making.
 
@@ -30,7 +30,7 @@ Developers, traders, and blockchain researchers who want to integrate live vault
 
 ---
 
-# Order-Manager — Pro (Private Version)
+# Banker-Bot—Pro (Private Version)
 The Pro version is a **full-featured trade execution & market analysis framework**.
 
 ## Additional Capabilities
