@@ -55,6 +55,6 @@ or legal consequences.
 
 See the **License** file for usage terms.
 
-Contact info: [GitHub — NovaStackDev](https://github.com/NovaStackDev)
-
 Read instructions.md for user manual.
+
+Contact info: [GitHub — NovaStackDev](https://github.com/NovaStackDev)
