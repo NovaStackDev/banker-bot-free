@@ -52,3 +52,5 @@ Unauthorized or unlawful use may result in account termination, financial loss,
 or legal consequences.
 
 See the **License** file for usage terms.
+
+Contact info: [GitHub — NovaStackDev](https://github.com/NovaStackDev)
