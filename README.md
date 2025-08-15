@@ -16,6 +16,7 @@ contact me privately via the links at:
 
 # Order-Manager — Basic (Free Version)
 A streamlined, public release of our vault monitoring system.
+This free version focuses exclusively on data listening and reporting — no automated trading or aggressive strategic logic — making it ideal for research, custom alerts, and manual decision-making.
 
 ## What It Does
 - Connects to Solana via WebSocket (Helius RPC)
