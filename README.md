@@ -1,40 +1,54 @@
-"""
 ====================================================================================
 ⚠ DISCLAIMER ⚠
-This script is the public version of the Solana vault balance listener. Which is already powerful enough to be used as a standalone tool for monitoring vault balances in real-time.
-It is designed to be simple and easy to use, making it suitable for anyone interested in Sol
-It only listens for vault balance changes and does NOT include any trading
-strategy or MEV logic.
 
-If you are interested in purchasing the full private strategy version,
-contact me in private using the links at:
+This repository contains the **Basic (Free)** version of the Solana Vault Balance
+Listener — already powerful enough to be used as a standalone tool for monitoring
+Raydium vault balances in real time.
+
+It only listens for vault balance changes and does **NOT** include any trading
+strategy, MEV logic, or automated execution.
+
+If you are interested in the **Pro (Private)** version with full strategy modules,
+contact me privately via the links at:
     https://github.com/NovaStackDev
 ====================================================================================
-"""
 
 
-# **Order-Manager**  
-**Advanced Trade Execution & Market Analysis Framework**
+# Order-Manager — Basic (Free Version)
+A streamlined, public release of our vault monitoring system.
 
-## **Overview**  
-Order-Manager is a proprietary software framework designed to research and develop advanced trade execution strategies across digital asset markets. Its goal is to identify optimal liquidity routes, monitor network conditions, and minimize execution costs, while adhering to applicable regulations and industry best practices.
+## What It Does
+- Connects to Solana via WebSocket (Helius RPC)
+- Subscribes to specific token vaults
+- Outputs real-time balance changes in SOL and USDC
+- Designed for simplicity and reliability
 
-This system is engineered for **high-performance order routing, risk-aware execution, and post-trade analytics**, enabling institutional-grade insights in both centralized and decentralized trading environments.
-
----
-
-## **Key Features**  
-- **Multi-Venue Order Routing** — Evaluate and route orders across multiple liquidity sources.  
-- **Latency & Slippage Optimization** — Reduce execution costs with real-time market feedback.  
-- **Risk Controls** — Position limits, capital protection, and fail-safe trade cancellation logic.  
-- **Market Surveillance Tools** — Identify abnormal activity and liquidity shifts.  
-- **Configurable Strategy Modules** — Plug-and-play framework for research and testing.  
+**Target Users:**  
+Developers, traders, and blockchain researchers who want to integrate live vault balance data into their own tools without complex strategy code.
 
 ---
 
-## **Compliance & Risk Statement**  
-This software is intended strictly for **lawful, compliant, and authorized** research and execution purposes. Users are responsible for ensuring all activities conform to applicable financial regulations, exchange policies, and contractual obligations.
+# Order-Manager — Pro (Private Version)
+The Pro version is a **full-featured trade execution & market analysis framework**.
 
-Unauthorized or unlawful use may result in account termination, financial loss, or legal consequences.
+## Additional Capabilities
+- **Multi-Venue Order Routing** — Optimize execution across multiple liquidity sources
+- **Latency & Slippage Optimization** — Reduce costs with real-time market feedback
+- **Risk Controls** — Position limits, capital protection, fail-safe cancellations
+- **Market Surveillance** — Detect abnormal activity & liquidity shifts
+- **Configurable Strategy Modules** — Plug-and-play algorithmic trading
 
-Read the **License** for usage authorization guidance.
+**Engineered For:**  
+High-performance, institutional-grade research and execution in both centralized and decentralized trading environments.
+
+---
+
+## Compliance & Risk Statement
+This software is intended strictly for lawful, compliant, and authorized use.
+Users are responsible for ensuring that all activities conform to applicable
+financial regulations, exchange policies, and contractual obligations.
+
+Unauthorized or unlawful use may result in account termination, financial loss,
+or legal consequences.
+
+See the **License** file for usage terms.
