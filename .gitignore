@@ -1,0 +1,59 @@
+# Node.js dependencies
+node_modules/
+src/node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+data/
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist/
+build/
+out/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Optional: ignore compiled JS if TS source exists
+# Uncomment if you transpile src to JS in same folder
+# src/**/*.js
+# src/**/*.js.map
+
+# Optional: package manager lock files (if you only want one)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

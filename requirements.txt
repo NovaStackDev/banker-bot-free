@@ -1,0 +1,4 @@
+ #(Keep it light.)
+PyYAML>=6.0
+pytest
+websockets

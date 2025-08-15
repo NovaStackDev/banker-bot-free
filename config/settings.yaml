@@ -1,0 +1,47 @@
+app:
+  symbol: "ASSET"
+  ticks: 200              # more ticks so the grid can work
+
+wallet:
+  quote_usd: 100.0
+  positions: {}
+
+venue:
+  type: "mock_amm"
+  fee_bps: 30            # 0.30%
+  reserves_base: 100000.0
+  reserves_quote: 1000000.0
+
+risk:
+  max_position: 10.0
+  max_order_notional: 50.0
+  max_slippage_bps: 50   # tighter than before
+
+execution:
+  use_private_flow: true         # when live, route via private relays
+  time_jitter_ms: [250, 1250]    # randomize slice timing to break patterns
+  split_routes: 2                # split an order across routes/pools (sim placeholder)
+
+strategy:
+  name: "grid"
+  params:
+    symbol: "SOL-USDT"
+    base_clip_qty: 0.025  # size of each buy/sell clip (in base units)
+    grid_step_bps: 40  # ~0.40% price bands
+    max_inventory: 8.0  # softer cap within risk.max_position
+    cooldown_ticks: 2  # min ticks between trades
+    anchor_alpha: 0.05   # drift 
+    mode: "incremental"   # or "fixed"
+    growth_factor: 0.5    # % of PnL reinvested into clip size
+    safety_drawdown: 0.15    # 15% NAV drop → revert to base_clip
+
+logging:
+  extended_csv: logs/grid_run_extended.csv
+  small_csv: logs/grid_run_small.csv
+
+# strategy: 
+#   name: twap:
+#   params:
+#    side: "buy"
+#    total_qty: 5.0
+#    slices: 5
