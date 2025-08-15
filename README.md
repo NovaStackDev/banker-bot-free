@@ -8,7 +8,7 @@ Raydium vault balances in real time.
 It only listens for vault balance changes and does **NOT** include any trading
 strategy, MEV logic, or automated execution.
 
-If you are interested in the **Pro (Private)** version with full strategy modules,
+If you are interested in the **Pro (Private)** version (cost: 1 Solana) with full strategy modules,
 contact me privately via the links at:
     https://github.com/NovaStackDev
 ====================================================================================
