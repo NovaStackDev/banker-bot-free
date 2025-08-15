@@ -11,6 +11,7 @@ strategy, MEV logic, or automated execution.
 If you are interested in the **Pro (Private)** version (cost: 2.4 Solana) with full strategy modules,
 contact me privately via the links at:
     https://github.com/NovaStackDev
+    
 ====================================================================================
 
 
@@ -55,3 +56,5 @@ or legal consequences.
 See the **License** file for usage terms.
 
 Contact info: [GitHub — NovaStackDev](https://github.com/NovaStackDev)
+
+Read instructions.md for user manual.
